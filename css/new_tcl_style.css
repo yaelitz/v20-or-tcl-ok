@@ -586,7 +586,7 @@ padding-top:20%;
 
 	}
 footer{
-	margin-bottom:0;
+	margin-bottom:0 !important;
 	}
 .footer {
   background-color: #000;

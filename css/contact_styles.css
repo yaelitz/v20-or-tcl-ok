@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.btn-footer{
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+	text-shadow: 0px 0px;
+	color: #fff;
+	border-radius:0px;
+	font-size:14px;
+	padding:10 35px;
+	letter-spacing:1px;
+	font-weight:300;
+
+	}
+.btn-footer:hover{
+	background-color: rgba(155,1,0,1);
+	border: 2px solid rgba(155,1,0,1);
+	text-shadow: 0px 0px;
+	color: #fff;
+	border-radius:0px;
+	font-size:14px;
+	padding:10 35px;
+	letter-spacing:1px;
+	font-weight:300;
+
+	}
+.height-contact{
+	margin-top:100px 0 20px 0;
+	height:540px;
+
+	}	
+footer{
+	background-color: #000;
+	background-size:cover;
+
+	
+	
+	}
+.footer {
+  background-color: #000;
+  color: #fff;
+	padding:10px 0px;
+	margin-bottom:0 !important;
+		
+	
+	
+}
+footer.fa{
+	color:#fff;
+	}
+.row .col-md-4.col-lg-12.contact-foot p {
+	margin-top: 20px;
+	text-align: right;
+	
+}	
+.icon-grey.fa{
+	color:#444444;
+	text-shadow:none;
+	}
+.email{
+	width:100%;
+	height:35px;
+	font-size:16px;
+	color:#444;
+	}	
+ .foot-icons i{
+	color: #FFFFFF !important;
+	
+}	
+.script-footer{
+	font-family: 'Allura', cursive;
+	letter-spacing:2px;
+	font-size:24px;
+	}
+
+@media (max-width: 767px) {/*   FOOTER MEDIA   */
+	
+	
+.contact-foot p {
+	margin-top: 0px;
+	text-align: center !important;
+	font-size:16px;
+	color:#fff;
+}	
+
+ .foot-icons {
+	margin-top:20px;
+	text-align:center;
+	color:#fff;
+	
+}
+	}
