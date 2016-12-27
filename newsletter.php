@@ -2,7 +2,7 @@
 
 // get posted data into local variables
 //$EmailFrom = Trim(stripslashes($_POST['EmailFrom'])); 
-$EmailTo = "contacto@tclchile.cl";
+$EmailTo = "contacto@tclchile.cl,yael@trending.cl";
 $Subject = "Inscripción a Newsletter desde web TCL";
 $email ="Newsletter";
 

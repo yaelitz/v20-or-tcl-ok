@@ -616,7 +616,12 @@ footer.fa{
 	font-family: 'Allura', cursive;
 	letter-spacing:2px;
 	font-size:24px;
-	}	
+	}
+	
+	.news{
+	background-color:#000000 ;
+	}
+
 @media (max-width: 767px) {/*   FOOTER MEDIA   */
 	
 	
@@ -635,6 +640,30 @@ footer.fa{
 }
 	}
 
-.news{
-	background-color:#000000 ;
-	}
+/*  estilos interior linea */
+    /*.titulo {copiado de tcl style
+        width: 100%;
+        background-color: #CCC;
+        height: 50px;
+        text-align: center;
+        margin-top: -20px;
+        color: #666;
+    }*/
+    
+
+
+    h3.titulo-city {/*copiado de tcl style*/
+        width: 100%;
+        background-color: #444;
+        height: 100px;
+        text-align: center;
+        color: #fff;
+				text-transform:uppercase;
+				padding:23px 0;
+				margin:0 auto;
+				font-size:48px;
+				font-weight:300;
+    }
+    .ico-title{
+	font-size: 42px;
+			}
