@@ -151,8 +151,6 @@ span.fa{
 	padding:10px 30px;
 	letter-spacing:1px;
 	font-weight:400;
-	transition: all 0.3s ease 0s;
-
 }
 .slider-btn:hover {
 	background-color: #FFF;
@@ -171,8 +169,6 @@ span.fa{
 	padding:10px 30px;
 	letter-spacing:1px;
 	font-weight:400;
-	transition: all 0.3s ease 0s;
-
 }
 
 .slider-btn-red.btn:hover {
@@ -387,13 +383,11 @@ span.fa{
 	border-radius:0px;
 	margin-bottom:4%;
 	font-size:18px;
-	transition: all 0.3s ease 0s;
 	}
 
 .btn-linea-city{
 	border:solid 3px #444;
 	color:#444;
-	
 	}
 .btn-linea-city:hover{
 	border:solid 3px #444;
@@ -431,23 +425,19 @@ span.fa{
 	
 	
 
+p.btn-block{
+	padding:5px;
+	font-weight:400;
+	
+	}
+
+
 
 .btn-line-block:hover {
       text-decoration: none;
 			
 		}	
-
-/*h3.btn-line-block:hover,p.btn-line-block:hover{
-	font-weight:700;
-	}	*/
-img.btn-line-block{
-	transition: all 0.3s ease 0s;
-	}	
-img.btn-line-block:hover{
-	opacity:0.5;
-	}	
-
-						
+			
 .piensa-sobre{
 	font-weight:800;
 	}	
@@ -463,7 +453,7 @@ img.btn-line-block:hover{
 	padding-top:40px;
 	}
 .sobre-land1{
-	/* TCL, una marca global */
+	/* TCL, una marca globa: */
 font-size: 18px;
 color: #333333;
 letter-spacing: 0;
@@ -490,7 +480,6 @@ padding-top:20%;
 	padding:10px 30px;
 	letter-spacing:1px;
 	font-weight:400;
-	transition: all 0.3s ease 0s;
 	
 	}
 .btn-sobre:hover{
@@ -509,7 +498,10 @@ padding-top:20%;
 	padding-top:20px;
 	
 	}	
-
+ .foot-icons i{
+	color: #FFFFFF !important;
+	
+}
 @media (min-width: 768px) and (max-width: 991px) {
 	
 .lineas p{
@@ -570,18 +562,6 @@ padding-top:20%;
 		
 		
 		}	
-		
-	/*   sacar hover img mobile   */	
-img.btn-line-block{
-	transition:none;
-	}	
-img.btn-line-block:hover{
-	opacity:1;
-	}			
-		
-		
-		
-		
 .sobre-land{
 	padding-top:10px;
 	text-align:center;
@@ -606,7 +586,6 @@ img.btn-line-block:hover{
 	padding:10 35px;
 	letter-spacing:1px;
 	font-weight:300;
-	transition: all 0.3s ease 0s;
 
 	}
 .btn-footer:hover{
@@ -630,17 +609,9 @@ footer{
 	padding:10px 0px;
 	margin-bottom:0;
 }
-
-	
- .foot-icons i{
-	color: #FFFFFF !important;
-	transition: all 0.3s ease 0s;
-	
-}
- .foot-icons i:hover{
-color: rgba(155,1,0,1) !important;
-	
-}	
+footer.fa{
+	color:#fff;
+	}
 .row .col-md-4.col-lg-12.contact-foot p {
 	margin-top: 20px;
 	text-align: right;
@@ -682,7 +653,6 @@ color: rgba(155,1,0,1) !important;
 	color:#fff;
 	
 }
-
 	}
 
 /*  estilos interior linea */
